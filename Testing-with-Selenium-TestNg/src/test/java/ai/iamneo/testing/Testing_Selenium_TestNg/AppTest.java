@@ -1,4 +1,4 @@
-package ai.iamneo.testing.Testing_Selenium_TestNg;
+package test.java.ai.iamneo.testing.Testing_Selenium_TestNg;
 import org.testng.annotations.Test;
 import java.net.URL;
 import java.util.List;
