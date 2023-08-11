@@ -2,38 +2,36 @@
 <testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-08T13:47:22 UTC" name="Surefire suite" finished-at="2023-08-08T13:47:30 UTC" duration-ms="8076">
+  <suite started-at="2023-08-11T15:57:56 UTC" name="Surefire suite" finished-at="2023-08-11T15:58:05 UTC" duration-ms="9150">
     <groups>
     </groups>
-    <test started-at="2023-08-08T13:47:22 UTC" name="Surefire test" finished-at="2023-08-08T13:47:30 UTC" duration-ms="8076">
+    <test started-at="2023-08-11T15:57:56 UTC" name="Surefire test" finished-at="2023-08-11T15:58:05 UTC" duration-ms="9150">
       <class name="test.java.ai.iamneo.testing.Testing_Selenium_TestNg.AppTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.java.ai.iamneo.testing.Testing_Selenium_TestNg.AppTest@c267ef4]" started-at="2023-08-08T13:47:22 UTC" name="beforeTest" finished-at="2023-08-08T13:47:25 UTC" duration-ms="3120" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.java.ai.iamneo.testing.Testing_Selenium_TestNg.AppTest@c267ef4]" started-at="2023-08-11T15:57:56 UTC" name="beforeTest" finished-at="2023-08-11T15:58:00 UTC" duration-ms="4661" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="testcase_1()[pri:0, instance:test.java.ai.iamneo.testing.Testing_Selenium_TestNg.AppTest@c267ef4]" started-at="2023-08-08T13:47:25 UTC" name="testcase_1" finished-at="2023-08-08T13:47:30 UTC" duration-ms="4799" status="FAIL">
+        <test-method signature="testcase_1()[pri:0, instance:test.java.ai.iamneo.testing.Testing_Selenium_TestNg.AppTest@c267ef4]" started-at="2023-08-11T15:58:00 UTC" name="testcase_1" finished-at="2023-08-11T15:58:05 UTC" duration-ms="4265" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[unknown error: session deleted because of page crash
-from unknown error: cannot determine loading status
 from tab crashed
   (Session info: chrome=114.0.5735.133)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'dbddcbfeedecbccfaabacdbefbaaebdcffff-0', ip: '10.56.90.35', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.18'
+System info: host: 'dbddcbfeedecbccfaabacdbefbaaebdcffff-0', ip: '10.80.3.53', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.89+', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.9G0mjg}, goog:chromeOptions: {debuggerAddress: localhost:35539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.90.35:4444/sessi..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.90.35:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.90.35:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8780ba1e7fb54cf7a2189d92ec72ffa6]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.1tPNJ9}, goog:chromeOptions: {debuggerAddress: localhost:33079}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.3.53:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.80.3.53:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.3.53:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d406abd7da8c7b7cb9e499e17d7c257]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
-from unknown error: cannot determine loading status
 from tab crashed
   (Session info: chrome=114.0.5735.133)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'dbddcbfeedecbccfaabacdbefbaaebdcffff-0', ip: '10.56.90.35', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.18'
+System info: host: 'dbddcbfeedecbccfaabacdbefbaaebdcffff-0', ip: '10.80.3.53', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.89+', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.9G0mjg}, goog:chromeOptions: {debuggerAddress: localhost:35539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.90.35:4444/sessi..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.90.35:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.90.35:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8780ba1e7fb54cf7a2189d92ec72ffa6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.1tPNJ9}, goog:chromeOptions: {debuggerAddress: localhost:33079}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.3.53:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.80.3.53:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.3.53:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d406abd7da8c7b7cb9e499e17d7c257
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -84,24 +82,24 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase_1 -->
-        <test-method signature="testcase_2()[pri:0, instance:test.java.ai.iamneo.testing.Testing_Selenium_TestNg.AppTest@c267ef4]" started-at="2023-08-08T13:47:30 UTC" name="testcase_2" finished-at="2023-08-08T13:47:30 UTC" duration-ms="17" status="FAIL">
+        <test-method signature="testcase_2()[pri:0, instance:test.java.ai.iamneo.testing.Testing_Selenium_TestNg.AppTest@c267ef4]" started-at="2023-08-11T15:58:05 UTC" name="testcase_2" finished-at="2023-08-11T15:58:05 UTC" duration-ms="91" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[invalid session id
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'dbddcbfeedecbccfaabacdbefbaaebdcffff-0', ip: '10.56.90.35', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.18'
+System info: host: 'dbddcbfeedecbccfaabacdbefbaaebdcffff-0', ip: '10.80.3.53', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.89+', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.9G0mjg}, goog:chromeOptions: {debuggerAddress: localhost:35539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.90.35:4444/sessi..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.90.35:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.90.35:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8780ba1e7fb54cf7a2189d92ec72ffa6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.1tPNJ9}, goog:chromeOptions: {debuggerAddress: localhost:33079}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.3.53:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.80.3.53:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.3.53:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d406abd7da8c7b7cb9e499e17d7c257
 *** Element info: {Using=tag name, value=a}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'dbddcbfeedecbccfaabacdbefbaaebdcffff-0', ip: '10.56.90.35', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.18'
+System info: host: 'dbddcbfeedecbccfaabacdbefbaaebdcffff-0', ip: '10.80.3.53', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.89+', java.version: '11.0.18'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.9G0mjg}, goog:chromeOptions: {debuggerAddress: localhost:35539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.56.90.35:4444/sessi..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.56.90.35:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.56.90.35:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8780ba1e7fb54cf7a2189d92ec72ffa6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.1tPNJ9}, goog:chromeOptions: {debuggerAddress: localhost:33079}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.3.53:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://10.80.3.53:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.3.53:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d406abd7da8c7b7cb9e499e17d7c257
 *** Element info: {Using=tag name, value=a}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -156,7 +154,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testcase_2 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.java.ai.iamneo.testing.Testing_Selenium_TestNg.AppTest@c267ef4]" started-at="2023-08-08T13:47:30 UTC" name="afterTest" finished-at="2023-08-08T13:47:30 UTC" duration-ms="64" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.java.ai.iamneo.testing.Testing_Selenium_TestNg.AppTest@c267ef4]" started-at="2023-08-11T15:58:05 UTC" name="afterTest" finished-at="2023-08-11T15:58:05 UTC" duration-ms="94" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
